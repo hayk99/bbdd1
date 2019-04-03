@@ -10,7 +10,7 @@ CREATE TABLE Equipo (
 CREATE TABLE Partido (
 	equipoLocal		references Equipo(nombreCorto),
 	equipoVisitante		references Equipo(nombreCorto),
-	jornada			references Jornada(numero),
+	jornada			references Jornada(Jor_k),
 	golesLocal		NUMBER(2),
 	golesVisitante		NUMBER(2),
 	PRIMARY KEY (equipoLocal,jornada)
@@ -31,19 +31,22 @@ CREATE TABLE Jornada (
 	puntos			NUMBER(3),
 	puesto			NUMBER(2),
 	asciende		BIT,
+	playoff			BIT,
 	desciende		BIT,
 	champions		BIT,
-	PRIMARY KEY (anyo,liga) 
+	europa			BIT,
+	CONSTRAINT Jor_k PRIMARY KEY (numero,equipo,temporada) 
 );
 
 CREATE TABLE Temporada (
-	anyo			NUMBER(2),
+	anyos			VARCHAR(9),
 	liga			references Liga(nombre)
 	CONSTRAINT Temp_k PRIMARY KEY (anyo,liga)
 );
 
 CREATE TABLE Liga (
-	nombre			VARCHAR(20) PRIMARY KEY
+	nombre			VARCHAR(2) PRIMARY KEY
+	nombreCompleto		VARCHAR(20) 
 );
 
 --Creo que hay que dar permisos de usuarix. 
