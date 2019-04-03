@@ -6,47 +6,58 @@ CREATE TABLE Equipo (
 	ciudad			VARCHAR(30)
 );
 
+CREATE TABLE Liga (
+	nombre			VARCHAR(30) PRIMARY KEY
+);
+
+CREATE TABLE Temporada (
+	anyos			VARCHAR(9),
+	liga			VARCHAR(30) ,
+	CONSTRAINT Temp_k PRIMARY KEY (anyos,liga),
+	CONSTRAINT liga	FOREIGN KEY(liga) REFERENCES Liga(nombre) 
+);
+
+CREATE TABLE Jornada (
+	numero			NUMBER(2),
+	nomEquipo		VARCHAR(20),
+	anyos			VARCHAR(9),
+	liga			VARCHAR(30),
+	puntos			NUMBER(3),
+	puesto			NUMBER(2),
+	asciende		VARCHAR(1),
+	playoff			VARCHAR(1),
+	desciende		VARCHAR(1),
+	champions		VARCHAR(1),
+	europa			VARCHAR(1),
+	CONSTRAINT Jor_k PRIMARY KEY (numero,nomEquipo,anyos,liga),
+	CONSTRAINT nom_k FOREIGN KEY(nomEquipo) REFERENCES Equipo(nombreCorto),
+	CONSTRAINT Temp_kk FOREIGN KEY(anyos,liga) REFERENCES Temporada(anyos,liga)
+);
 
 CREATE TABLE Partido (
-	equipoLocal		references Equipo(nombreCorto),
-	equipoVisitante		references Equipo(nombreCorto),
-	jornada			references Jornada(Jor_k),
-	golesLocal		NUMBER(2),
-	golesVisitante		NUMBER(2),
-	PRIMARY KEY (equipoLocal,jornada)
+	equipoLocal						VARCHAR(20),
+	equipoVisitante						VARCHAR(20),
+	numero							NUMBER(2),
+	equipo							VARCHAR(20),
+	anyos							VARCHAR(9),
+	liga							VARCHAR(30),
+	golesLocal						NUMBER(2),
+	golesVisitante						NUMBER(2),
+	CONSTRAINT Par_k PRIMARY KEY (equipoLocal,numero,equipo,anyos,liga),
+	CONSTRAINT eql_k FOREIGN KEY(equipoLocal) REFERENCES Equipo(nombreCorto),
+	CONSTRAINT eqv_k FOREIGN KEY(equipoVisitante) REFERENCES Equipo(nombreCorto),
+	CONSTRAINT mon_k FOREIGN KEY(numero,equipo,anyos,liga) REFERENCES Jornada(numero,nomEquipo,anyos,liga)
 );
 
 CREATE TABLE Estadio (
 	nombre			VARCHAR(50) PRIMARY KEY,
-	equipo			REFERENCES Equipo(nombreCorto),
+	nomEquipo		REFERENCES Equipo(nombreCorto),
 	inaguracion		NUMBER(4),
 	capacidad		NUMBER(6)
 );
 
 
-CREATE TABLE Jornada (
-	numero			NUMBER(2),
-	equipo			references Equipo(nombreCorto),
-	temporada		references Temporada(Temp_k),
-	puntos			NUMBER(3),
-	puesto			NUMBER(2),
-	asciende		BIT,
-	playoff			BIT,
-	desciende		BIT,
-	champions		BIT,
-	europa			BIT,
-	CONSTRAINT Jor_k PRIMARY KEY (numero,equipo,temporada) 
-);
 
-CREATE TABLE Temporada (
-	anyos			VARCHAR(9),
-	liga			references Liga(nombre)
-	CONSTRAINT Temp_k PRIMARY KEY (anyo,liga)
-);
 
-CREATE TABLE Liga (
-	nombre			VARCHAR(2) PRIMARY KEY
-	nombreCompleto		VARCHAR(20) 
-);
 
---Creo que hay que dar permisos de usuarix. 
+
