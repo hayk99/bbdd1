@@ -1,92 +1,159 @@
-'Rec. Huelva','Real Club Recreativo de Huelva',1889,'Huelva'
-' Sevilla','Sevilla Fútbol Club',1890,'Sevilla '
-'Ath. Bilbao','Athletic Club ',1898,'Bilbao'
-'Barcelona','Fútbol Club Barcelona ',1899,'Barcelona '
-'Espanyol','Real Club Deportivo Español',1900,'Barcelona '
-'Real Madrid','Real Madrid Club de Fútbol',1900,'Madrid '
-'Sabadell','Centre d''Esports Sabadell Futbol Club ',1901,'Sabadell'
-'At. Madrid','Club Atlético de Madrid ',1903,'Madrid '
-'Avilés','Real Avilés Club de Fútbol ',1903,'Avilés'
-'Sporting Gijón','Real Sporting de Gijón',1905,'Gijón'
-'Dptivo. Coruña','Real Club Deportivo de La Coruña',1906,'La Coruña '
-'Betis','Real Betis Balompié',1907,'Sevilla '
-'Murcia','Real Murcia Club de Fútbol',1908,'Murcia '
-'Real Sociedad','Real Sociedad de Fútbol',1909,'San Sebastián '
-'Levante','Levante Unión Deportiva',1909,'Valencia '
-'Algeciras','Algeciras Club de Fútbol',1909,'Algeciras '
-'Cádiz','Cádiz Club de Fútbol',1910,'Cádiz '
-'Tenerife','Club Deportivo Tenerife',1912,'Santa Cruz de Tenerife '
-'Rac. Santander','Real Racing Club de Santander',1913,'Santander '
-'Gimn. Tarragona','Club Gimnàstic de Tarragona',1914,'Tarragona '
-'Gimn. Tarragona','Real Unión de Tenerife Club de Fútbol',1915,'Tenerife '
-'Real Unión','Real Unión Club',1915,'Irún '
-'Mallorca','Real Club Deportivo Mallorca',1916,'Palma de Mallorca '
-'Barakaldo','Barakaldo Club de Fútbol',1917,'Baracaldo '
-'Cartagena F.C.','Cartagena Fútbol Club',1919,'Cartagena '
-'Figueres','Unió Esportiva Figueres',1919,'Figueras '
-'Valencia','Valencia Club de Fútbol',1919,'Valencia '
-'Ferrol','Racing Club de Ferrol',1919,'Ferrol '
-'Osasuna','Club Atlético Osasuna',1920,'Pamplona '
-'Alavés','Deportivo Alavés',1921,'Vitoria '
-'Castellón','Club Deportivo Castellón',1919,'Castellón de la Plana '
-'Ponferradina','Sociedad Deportiva Ponferradina',1921,'Ponferrada '
-'Elche','Elche Club de Fútbol',1922,'Elche '
-'Cult. Leonesa','Cultural y Deportiva Leonesa',1923,'León '
-'Celta','Real Club Celta de Vigo',1923,'Vigo '
-'Rayo Vallecano','Rayo Vallecano de Madrid',1924,'Madrid '
-'Sant Andreu','Unió Esportiva Sant Andreu',1925,'Barcelona '
-'Oviedo','Real Oviedo',1926,'Oviedo '
-'Mirandés','Club Deportivo Mirandés',1927,'Miranda de Ebro '
-'Valladolid','Real Valladolid Club de Fútbol',1928,'Valladolid '
-'Leganés','Club Deportivo Leganés',1928,'Leganés '
-'Alcoyano','Club Deportivo Alcoyano',1928,'Alcoy '
-'Jaén','Real Jaén Club de Fútbol',1929,'Jaén '
-'Girona','Girona Futbol Club',1930,'Gerona '
-'Granada','Granada Club de Fútbol',1931,'Granada '
-'Zaragoza','Real Zaragoza',1932,'Zaragoza '
-'Albacete','Albacete Balompié',1940,'Albacete '
-'Pontevedra','Pontevedra Club de Fútbol',1941,'Pontevedra '
-'Éibar','Sociedad Deportiva Eibar',1943,'Éibar '
-'Numancia','Club Deportivo Numancia de Soria',1945,'Soria '
-'Villarreal','Villarreal Club de Fútbol',1944,'Villarreal '
-'Xerez','Xerez Club Deportivo',1947,'Jerez de la Frontera '
-'Guadalajara','Club Deportivo Guadalajara',1947,'Guadalajara '
-'Málaga','Málaga Club de Fútbol',1948,'Málaga '
-'Univ. Las Palmas','Unión Deportiva Las Palmas',1949,'Las Palmas '
-'Lugo','Club Deportivo Lugo',1953,'Lugo '
-'Córdoba','Córdoba Club de Fútbol',1954,'Córdoba '
-'Ceuta','Club Atlético de Ceuta',1956,'Ceuta '
-'Huesca','Sociedad Deportiva Huesca',1960,'Huesca '
-'Logroñés','Unión Deportiva Logroñés',1967,'Logroño '
-'Alcorcón','Agrupación Deportiva Alcorcón',1971,'Alcorcón '
-'Getafe','Getafe Club de Fútbol',1983,'Getafe '
-'Almería  ','Unión Deportiva Almería',1989,'Almería '
-'Burgos','Burgos Club de Fútbol',1994,'Burgos '
-'Cartagena','Fútbol Club Cartagena',1995,'Cartagena '
-'Sestao','Sestao River Club',1996,'Sestao '
-'Valencia','Sociedad Deportiva Compostela',2004,'Santiago de Compostela '
-'Extremadura','Extremadura Unión Deportiva',2007,'Almendralejo '
-'Lleida','Club Lleida Esportiu',2011,'Lérida '
-'Badajoz','Club Deportivo Badajoz',2012,'Badajoz '
-'Salamanca','Unionistas de Salamanca Club de Fútbol',2013,'Salamanca '
-'Mérida','Mérida Asociación Deportiva',2013,'Mérida '
-'Marbella','Marbella Futbol Club',1997,'Marbella'
-'Palamós','Palamós Club de Futbol',1898,'Palomós'
-'Toledo','Club Deportivo Toledo',1928,'Toledo'
-'Ourense','Club Deportivo Ourense',1952,'Orense'
-'Alicante','Alicante Club de Futbol',1918,'Alicante'
-'Hércules','Hércules de Alicante Club de Fútbol',1914,'Alicante'
-'Ejido','Club Deportivo Ejido',1969,'El Ejido'
-'Terrassa','Tarrasa Olimpica 2010',2009,'Tarrasa'
-'Ensidesa','Club Deportivo Ensidesa',1956,'Avilés'
-'Calvo Sotelo','Club Deportivo Puertollano',1948,'Puertollano'
-'Algeciras','Algeciras Club de Fútbol',1909,'Algeciras '
-'Palencia','Club de Futbol Palencia',1975,'Palencia'
-'Linares','Linares Deportivo',2009,'Linares'
-'Lorca','Lorca Atlético Club de Futbol',1996,'Lorca'
-'Alzira','Unión Deportiva Alzira',1946,'Alcira'
-'Mollerusa','Club de Ftubol Joventut Mollerussa',1930,'Mollerussa'
-'Orihuela','Orihuela Club de Futbol',1993,'Orihuela'
-'Écija','Écija Balompié',1939,'Écija'
-'Vecindario','Unión Deportiva Vecindario',1962,'Vecindario'
-'Llagostera','Unió Esportiva Llagostera',1947,'Llagostera'
+Rec. Huelva,Real Club Recreativo de Huelva,1889,Huelva
+ Sevilla,Sevilla Futbol Club,1890,Sevilla 
+Ath. Bilbao,Athletic Club ,1898,Bilbao
+Palamos,Palamos Club de Futbol,1898,Palomos
+Barcelona,Futbol Club Barcelona ,1899,Barcelona 
+Espanyol,Real Club Deportivo Espanol,1900,Barcelona 
+Real Madrid,Real Madrid Club de Futbol,1900,Madrid 
+Sabadell,Centre dEsports Sabadell Futbol Club ,1901,Sabadell
+At. Madrid,Club Atletico de Madrid ,1903,Madrid 
+Badalona,Club de Futbol Badalona,1903,Badalona
+Aviles CF,Real Aviles Club de Futbol ,1903,Aviles
+Vilafranca FC,Futbol Club Vilafranca ,1904,Vilafranca del Penedès 
+Sporting Gijon,Real Sporting de Gijon,1905,Gijon
+Santfeliuenc FC,Santfeliuenc Futbol Club,1905,Sant Feliu de Llobregat 
+Beasain SD,Sociedad Deportiva Beasain,1905,Beasain
+Carabanchel CD,Real Club Deportivo Carabanchel,1906,Madrid
+Dptivo. Coruna,Real Club Deportivo de La Coruna,1906,La Coruna 
+Europa CD,Club Esportiu Europa,1907,Barcelona 
+Betis,Real Betis Balompie,1907,Sevilla 
+Torrelavega,Gimnastica de Torrelavega,1908,Torrrelavega
+Murcia,Real Murcia Club de Futbol,1908,Murcia 
+Algeciras,Algeciras Club de Futbol,1909,Algeciras 
+Guecho,Arenas Club de Guecho,1909,Guecho
+Reus CD,Club de Futbol Reus Deportiu,1909,Reus
+Portugalete,Club Portugalete ,1909,Portugalete
+Levante,Levante Union Deportiva,1909,Valencia 
+Real Sociedad,Real Sociedad de Futbol,1909,San Sebastian 
+Cadiz,Cadiz Club de Futbol,1910,Cadiz 
+Tenerife CD,Club Deportivo Tenerife,1912,Santa Cruz de Tenerife 
+Luarca CF,Luarca Club de Futbol,1912,Luarca
+Linense,Real Balompedica Linense,1912,La Linea 
+Gara CD,Real Club Deportivo Gara,1912,Garachico
+Titanico,Real Titanico,1912,Pola de Laviana
+Icodense UD,Union Deportiva Icodense,1912,Tenerife
+Basconia CD,Club Deportivo Basconia,1913,Basauri
+Rac. Santander,Real Racing Club de Santander,1913,Santander 
+Deusto SD,Sociedad Deportiva Deusto,1913,Deusto
+Gimn. Tarragona,Club Gimnàstic de Tarragona,1914,Tarragona
+Haro CD,Club Haro Deportivo,1914,Haro
+Hercules,Hercules de Alicante Club de Futbol,1914,Alicante
+Coruna CD,Real Club Deportivo de La Coruna B,1914,La Coruna
+Cayon CF,Club Deportivo Cayon,1915,Santa Maria de Cayon
+Real Union,Real Union Club,1915,Irun
+Tenerife,Real Union de Tenerife Club de Futbol,1915,Tenerife
+Erandio SD,Sociedad Deportiva Erandio Club,1915,Erandio
+Lealtad CD,Club Deportivo Lealtad,1916,Villaviciosa
+Siero,Club Siero,1916,Pola de Siero
+Mallorca,Real Club Deportivo Mallorca,1916,Palma de Mallorca 
+Barakaldo,Barakaldo Club de Futbol,1917,Baracaldo 
+Contestano CD,Club Deportivo Contestano,1917,Cocentaina
+Elgoibar CD,Club Deportivo Elgoibar,1917,Elgoibar
+Pilonesa,Deportiva Pilonesa,1917,Infiesto
+Pumarin CF,Pumarin Club de Futbol,1917,Oviedo
+Alicante,Alicante Club de Futbol,1918,Alicante
+Caudal,Caudal Deportivo,1918,Mieres
+Santutxu FC,Santutxu Futbol Club,1918,Santutxu 
+Cartagena F.C.,Cartagena Futbol Club,1919,Cartagena 
+Acero CD,Club Deportivo Acero,1919,Puerto de Sagunto
+Castellon,Club Deportivo Castellon,1919,Castellon de la Plana 
+Cacereno,Club Polideportivo Cacereno,1919,Caceres
+Ferrol,Racing Club de Ferrol,1919,Ferrol 
+Durango SD,Sociedad Cultural Deportiva de Durango,1919,Durango
+Lutxana,Sporting Club de Lutxana,1919,Baracaldo
+Figueres,Unio Esportiva Figueres,1919,Figueras 
+Valencia,Valencia Club de Futbol,1919,Valencia 
+Osasuna,Club Atletico Osasuna,1920,Pamplona 
+Baleares CD,Club Deportivo Atletico Baleares,1920,Palma de Mallorca
+Capellades CF,Club Futbol Capellades,1920,Capellades
+Eldense CD,Club Deportivo Eldense ,1921,Elda 
+Alaves,Deportivo Alaves,1921,Vitoria 
+Ponferradina,Sociedad Deportiva Ponferradina,1921,Ponferrada 
+Mensajero CD,Club Deportivo Mensajero ,1922,Santa Cruz de La Palma 
+Elche,Elche Club de Futbol,1922,Elche 
+Gernika SD,Sociedad Deportiva Gernika Club ,1922,Gernika 
+Tenisca SD,Sociedad Deportiva Tenisca ,1922,Santa Cruz de La Palma 
+Tolosa CF,Tolosa Club de Futbol ,1922,Tolosa 
+Velez CF,Velez Club de Futbol ,1922,Velez-Malaga 
+Astur CF,Astur Club de Futbol ,1923,Oviedo 
+Cult. Leonesa,Cultural y Deportiva Leonesa,1923,Leon 
+Celta,Real Club Celta de Vigo,1923,Vigo 
+Izarra CD,Club Deportivo Izarra ,1924,Estella 
+Rayo Vallecano,Rayo Vallecano de Madrid,1924,Madrid 
+Amorebieta SD,Sociedad Deportiva Amorebieta ,1925,Vizcaya 
+Sant Andreu,Unio Esportiva Sant Andreu,1925,Barcelona 
+Oviedo,Real Oviedo,1926,Oviedo 
+Mirandes,Club Deportivo Mirandes,1927,Miranda de Ebro 
+Calavera CF,Calavera Club de Futbol ,1928,Sevilla 
+Carrion,Carrion Balompie,1928,Carrion de los Cespedes 
+Alcoyano,Club Deportivo Alcoyano,1928,Alcoy 
+Leganes,Club Deportivo Leganes,1928,Leganes 
+Toledo,Club Deportivo Toledo,1928,Toledo
+Portuense,Racing Club Portuense ,1928,El Puerto de Santa Maria 
+Valladolid,Real Valladolid Club de Futbol,1928,Valladolid 
+Jaen,Real Jaen Club de Futbol,1929,Jaen 
+Mollerusa,Club de Ftubol Joventut Mollerussa,1930,Mollerussa
+Girona,Girona Futbol Club,1930,Gerona 
+Castilla CF,Real Madrid Castilla Club de Futbol ,1930,Madrid
+Vetusta,Real Oviedo Vetusta ,1930,Oviedo 
+Luanco,Club Marino de Luanco ,1931,Luanco
+Granada,Granada Club de Futbol,1931,Granada 
+Puerto CF,Puerto Real Club de Futbol ,1931,Puerto Real 
+Zaragoza,Real Zaragoza,1932,Zaragoza 
+Marino CD,Club Deportivo Marino ,1933,Arona
+ecija,ecija Balompie,1939,ecija
+Albacete,Albacete Balompie,1940,Albacete 
+Pontevedra,Pontevedra Club de Futbol,1941,Pontevedra 
+eibar,Sociedad Deportiva Eibar,1943,eibar 
+Mestalla CF,Valencia Club de Futbol Mestalla ,1944,Paterna
+Villarreal,Villarreal Club de Futbol,1944,Villarreal 
+Numancia,Club Deportivo Numancia de Soria,1945,Soria 
+Alzira,Union Deportiva Alzira,1946,Alcira
+Guadalajara,Club Deportivo Guadalajara,1947,Guadalajara 
+Calvo Sotelo,Club Deportivo Puertollano ,1947,Puertollano
+Granada CR,Club Recreativo Granada ,1947,Granada 
+Llagostera,Unio Esportiva Llagostera,1947,Llagostera
+Xerez,Xerez Club Deportivo,1947,Jerez de la Frontera 
+Malaga,Malaga Club de Futbol,1948,Malaga 
+Univ. Las Palmas,Union Deportiva Las Palmas,1949,Las Palmas 
+Sevilla,Sevilla Atletico Club ,1950,Sevilla
+Ourense,Club Deportivo Ourense,1952,Orense
+Lugo,Club Deportivo Lugo,1953,Lugo 
+Cordoba,Cordoba Club de Futbol,1954,Cordoba 
+Ceuta,Club Atletico de Ceuta,1956,Ceuta 
+Ensidesa,Club Deportivo Ensidesa,1956,Aviles
+Huesca,Sociedad Deportiva Huesca,1960,Huesca 
+Langreo,Union Popular de Langreo ,1961,Langreo
+Vecindario,Union Deportiva Vecindario,1962,Vecindario
+Atletico B,Club Atletico de Madrid B ,1963,Majadahonda 
+Athletic,Bilbao Athletic ,1964,Lezama 
+Logrones,Union Deportiva Logrones,1967,Logrono 
+Ejido,Club Deportivo Ejido,1969,El Ejido
+Barcelona B FC,Futbol Club Barcelona B ,1970,Barcelona 
+Alcorcon,Agrupacion Deportiva Alcorcon,1971,Alcorcon 
+Montilla FC,Montilla Club de Futbol ,1973,Montilla 
+Palencia,Club de Futbol Palencia,1975,Palencia
+Majadahonda FC,Club de Futbol Rayo Majadahonda ,1976,Majadahonda 
+Alboraya UD,Alboraya Union Deportiva ,1978,Alboraya 
+Getafe,Getafe Club de Futbol,1983,Getafe 
+Getafe B ,Getafe Club de Futbol B ,1983,Getafe 
+Burgos CF,Real Burgos Club de Futbol,1983,Burgos 
+Almeria  ,Union Deportiva Almeria,1989,Almeria 
+Orihuela,Orihuela Club de Futbol,1993,Orihuela
+Burgos,Burgos Club de Futbol,1994,Burgos 
+Cartagena,Futbol Club Cartagena,1995,Cartagena 
+Lorca,Lorca Atletico Club de Futbol,1996,Lorca
+Sestao,Sestao River Club,1996,Sestao 
+Marbella,Marbella Futbol Club,1997,Marbella
+Alcorcon B,Agrupacion Deportiva Alcorcon B ,1998,Alcorcon 
+UCAM,UCAM Murcia Club de Futbol ,1999,Murcia 
+Compostela,Sociedad Deportiva Compostela,2004,Santiago de Compostela 
+Extremadura,Extremadura Union Deportiva,2007,Almendralejo 
+Linares,Linares Deportivo,2009,Linares
+Logrones SD,Sociedad Deportiva Logrones ,2009,Logrono 
+Terrassa,Tarrasa Olimpica 2010,2009,Tarrasa
+Lleida,Club Lleida Esportiu,2011,Lerida 
+Badajoz,Club Deportivo Badajoz,2012,Badajoz 
+Merida,Merida Asociacion Deportiva,2013,Merida 
+Salamanca,Unionistas de Salamanca Club de Futbol,2013,Salamanca 
+Xerez FC,Xerez Deportivo Futbol Club ,2013,Jerez de la Frontera 
