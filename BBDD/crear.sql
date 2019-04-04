@@ -51,11 +51,19 @@ CREATE TABLE Partido (
 
 CREATE TABLE Estadio (
 	nombre			VARCHAR(50) PRIMARY KEY,
-	nomEquipo		REFERENCES Equipo(nombreCorto),
+	nomEquipo		VARCHAR(50),
 	inaguracion		NUMBER(4),
 	capacidad		NUMBER(6)
 );
 
+
+CREATE TABLE Tiene (
+	equipo			VARCHAR(20),
+	estadio			VARCHAR(50),
+	CONSTRAINT Tiene_k PRIMARY KEY (equipo,estadio),
+	CONSTRAINT eqe_k FOREIGN KEY(equipo) REFERENCES Equipo(nombreCorto),
+	CONSTRAINT est_k FOREIGN KEY(estadio) REFERENCES Estadio(nombre)
+);
 
 
 

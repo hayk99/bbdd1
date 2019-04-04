@@ -1,4 +1,6 @@
 
+DROP TABLE Tiene;
+
 DROP TABLE Estadio;
 
 DROP TABLE Partido;
