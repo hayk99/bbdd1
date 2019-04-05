@@ -1,7 +1,7 @@
 
 CREATE TABLE Equipo (
 	nombreCorto		VARCHAR(20) PRIMARY KEY,
-	nombreOficial		VARCHAR(50),
+	nombreOficial	VARCHAR(50),
 	fundacion		NUMBER(4),
 	ciudad			VARCHAR(30)
 );
@@ -11,7 +11,7 @@ CREATE TABLE Liga (
 );
 
 CREATE TABLE Temporada (
-	anyos			VARCHAR(9),
+	anyos			NUMBER(4),
 	liga			VARCHAR(30) ,
 	CONSTRAINT Temp_k PRIMARY KEY (anyos,liga),
 	CONSTRAINT liga	FOREIGN KEY(liga) REFERENCES Liga(nombre) 
@@ -20,7 +20,7 @@ CREATE TABLE Temporada (
 CREATE TABLE Jornada (
 	numero			NUMBER(2),
 	nomEquipo		VARCHAR(20),
-	anyos			VARCHAR(9),
+	anyos			NUMBER(4),
 	liga			VARCHAR(30),
 	puntos			NUMBER(3),
 	puesto			NUMBER(2),
@@ -36,13 +36,13 @@ CREATE TABLE Jornada (
 
 CREATE TABLE Partido (
 	equipoLocal						VARCHAR(20),
-	equipoVisitante						VARCHAR(20),
+	equipoVisitante					VARCHAR(20),
 	numero							NUMBER(2),
 	equipo							VARCHAR(20),
-	anyos							VARCHAR(9),
+	anyos							NUMBER(4),
 	liga							VARCHAR(30),
 	golesLocal						NUMBER(2),
-	golesVisitante						NUMBER(2),
+	golesVisitante					NUMBER(2),
 	CONSTRAINT Par_k PRIMARY KEY (equipoLocal,numero,equipo,anyos,liga),
 	CONSTRAINT eql_k FOREIGN KEY(equipoLocal) REFERENCES Equipo(nombreCorto),
 	CONSTRAINT eqv_k FOREIGN KEY(equipoVisitante) REFERENCES Equipo(nombreCorto),
@@ -51,15 +51,14 @@ CREATE TABLE Partido (
 
 CREATE TABLE Estadio (
 	nombre			VARCHAR(50) PRIMARY KEY,
-	nomEquipo		VARCHAR(50),
 	inaguracion		NUMBER(4),
 	capacidad		NUMBER(6)
 );
 
 
 CREATE TABLE Tiene (
-	equipo			VARCHAR(20),
 	estadio			VARCHAR(50),
+	equipo			VARCHAR(20),
 	CONSTRAINT Tiene_k PRIMARY KEY (equipo,estadio),
 	CONSTRAINT eqe_k FOREIGN KEY(equipo) REFERENCES Equipo(nombreCorto),
 	CONSTRAINT est_k FOREIGN KEY(estadio) REFERENCES Estadio(nombre)
