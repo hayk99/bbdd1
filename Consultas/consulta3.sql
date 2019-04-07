@@ -7,6 +7,6 @@ SELECT MAX(SumaGoles)as MAXPorLiga
 FROM (SELECT anyos,liga,numero,SUM(golesLocal+golesVisitante)as SumaGoles
 	FROM Partido
 	WHERE anyos>2010
-	GROUP BY anyos, liga, numero)
+	GROUP BY anyos, liga, numero);
 );
 

@@ -51,7 +51,6 @@ CREATE TABLE Partido (
 
 CREATE TABLE Estadio (
 	nombre			VARCHAR(50) PRIMARY KEY,
-	nomEquipo		VARCHAR(50),
 	inaguracion		NUMBER(4),
 	capacidad		NUMBER(6)
 );
