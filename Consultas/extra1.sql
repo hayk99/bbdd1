@@ -1,3 +1,6 @@
+-- HAYK KOCHARYAN(757715) 
+-- ALEJANDRO TERRÓN ÁLVAREZ (761069)
+-- JOSÉ MANUEL SÁNCHEZ AQUILUÉ (759267)
 SELECT  * FROM (SELECT DISTINCT p.anyos Temp, p.equipoLocal EquipoL, p.equipoVisitante EquipoV, 
 				p.golesLocal GolL, p.golesVisitante GolV, p.liga
 				FROM Partido p

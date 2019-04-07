@@ -1,3 +1,6 @@
+-- HAYK KOCHARYAN(757715) 
+-- ALEJANDRO TERRÓN ÁLVAREZ (761069)
+-- JOSÉ MANUEL SÁNCHEZ AQUILUÉ (759267)
 WITH tablaTemporal AS
 	(SELECT DISTINCT nomEquipo as nomm, anyos
 	 FROM Jornada 
